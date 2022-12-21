@@ -11,6 +11,11 @@ public class BoolType implements Type {
     }
 
     @Override
+    public Type clone(){
+        return new BoolType();
+    }
+
+    @Override
     public BoolValue defaultValue() {
         return new BoolValue(false);
     }

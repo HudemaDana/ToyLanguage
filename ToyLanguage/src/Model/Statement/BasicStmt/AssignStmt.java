@@ -14,42 +14,57 @@ public class AssignStmt implements IStmt {
     String id;
     Exp exp;
 
-    public AssignStmt(String variableName,Exp e){
+    public AssignStmt(String variableName, Exp e) {
         id = variableName;
         exp = e;
     }
 
-    public AssignStmt(AssignStmt stmt){
+    public AssignStmt(AssignStmt stmt) {
         id = stmt.id;
         exp = stmt.exp;
     }
+
     @Override
-    public PrgState execute(PrgState state) throws MyException{
+    public PrgState execute(PrgState state) throws MyException {
         MyIDictionary<String, Value> newSymTable = state.getSymTable();
 
-        if(newSymTable.isVariableDefined(id)){
+        if (newSymTable.isVariableDefined(id)) {
             try {
-                Value v1 = exp.eval(newSymTable);
+                Value v1 = exp.eval(newSymTable, state.getHeap());
                 Type idType = newSymTable.lookup(id).getType();
                 if (v1.getType().equals(idType)) {
                     newSymTable.update(id, v1);
                 } else
                     throw new MyException("Id doesn't match the type");
-            }
-            catch(ExpressionException | VariableException e){
+            } catch (ExpressionException | VariableException e) {
                 throw new MyException(e.toString());
             }
-        }
-        else
+        } else
             throw new MyException("Id doesn't exist in SymbolTable");
-  
-        state.setSymTable(newSymTable);
-        return state;
+
+        //state.setSymTable(newSymTable);
+        return null;
 
     }
 
     @Override
-    public String toString(){
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException {
+        Type typevar = typeEnv.lookup(id);
+        Type typexp = null;
+        try {
+            typexp = exp.typecheck(typeEnv);
+        } catch (ExpressionException e) {
+            throw new MyException(e.getMessage());
+        }
+        if (typevar.equals(typexp))
+            return typeEnv;
+        else
+            throw new MyException("Assignment: right hand side and left hand side have different types ");
+    }
+
+
+    @Override
+    public String toString() {
 
         return id + "=" + exp.toString();
     }

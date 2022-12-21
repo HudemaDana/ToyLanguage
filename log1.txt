@@ -1,0 +1,202 @@
+Program State
+----------------------------------
+Execution Stack
+{(int v;(v=2;Print(v))) |   }
+
+Symbol Table
+
+----------------------------------
+Out List
+
+----------------------------------
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (v=2;Print(v)) |   }
+
+Symbol Table
+
+----------------------------------
+Out List
+
+----------------------------------
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(v=2;Print(v)) |   }
+
+Symbol Table
+v = 0
+
+----------------------------------
+Out List
+
+----------------------------------
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=2 | Print(v) |   }
+
+Symbol Table
+v = 0
+
+----------------------------------
+Out List
+
+----------------------------------
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+v = 2
+
+----------------------------------
+Out List
+
+----------------------------------
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+v = 2
+
+----------------------------------
+Out List
+2
+
+----------------------------------
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int v;(v=2;Print(v))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (v=2;Print(v)) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(v=2;Print(v)) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=2 | Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+v = 2
+
+
+Out List
+2
+
+
+File Table
+
+----------------------------------
+
+

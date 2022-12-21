@@ -31,7 +31,7 @@ public class MyDictionary<T,E> implements MyIDictionary<T,E>{
     }
 
     @Override
-    public void add(T id,E elem) throws VariableException{
+    public synchronized void add(T id,E elem) throws VariableException{
         if(isVariableDefined(id))
             throw new VariableException("Id already exists");
         map.put(id,elem);
@@ -39,17 +39,29 @@ public class MyDictionary<T,E> implements MyIDictionary<T,E>{
     }
 
     @Override
-    public void remove(T id) throws VariableException{
+    public synchronized void remove(T id) throws VariableException{
         if(!isVariableDefined(id))
             throw new VariableException("Id doesn't exist");
         map.remove(id);
     }
 
     @Override
-    public void update(T id, E elem) throws VariableException{
-        if(!isVariableDefined(id))
-            throw new VariableException("Id can't be updated because it doesn't exist");
-        map.replace(id,elem);
+    public synchronized void update(T id, E elem) throws VariableException{
+        map.put(id,elem);
+    }
+
+    @Override
+    public MyIDictionary<T,E> clone(){
+        MyIDictionary<T,E> copy = new MyDictionary<>();
+        for(T t: map.keySet()){
+            try {
+                copy.update(t,map.get(t));
+            } catch (VariableException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        return copy;
     }
 
     @Override

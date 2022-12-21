@@ -26,6 +26,12 @@ public class Repository implements IRepository {
         logFilePath = lfPath;
     }
 
+    public Repository(PrgState state,String lfPath) {
+        programStates = new LinkedList<>();
+        programStates.add(state);
+        logFilePath = lfPath;
+    }
+
     public String getLogFilePath() {
         return logFilePath;
     }
@@ -46,6 +52,10 @@ public class Repository implements IRepository {
         return null;
     }
 
+    public void setPrgList(List<PrgState> prgStates){
+        programStates = prgStates;
+    }
+
     @Override
     public void addPrgState(PrgState prg) {
         programStates.add(prg);
@@ -59,11 +69,15 @@ public class Repository implements IRepository {
     }
 
     @Override
-    public void logPrgStateExec() throws MyException {
+    public void logPrgStateExec(PrgState state) throws MyException {
+        PrintWriter logFile;
         try {
-            PrintWriter logFile= new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, true)));
+            logFile= new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, true)));
         } catch (IOException e) {
             throw new MyException(e.toString());
         }
+        logFile.flush();
+        logFile.print(state);
+        logFile.close();
     }
 }

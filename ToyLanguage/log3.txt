@@ -1,0 +1,370 @@
+Program State
+----------------------------------
+Execution Stack
+{(bool a;(int v;(a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{bool a | (int v;(a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v)))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{bool a | (int v;(a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v)))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int v;(a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v)))) |   }
+
+Symbol Table
+a = false
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int v;(a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v)))) |   }
+
+Symbol Table
+a = false
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v))) |   }
+
+Symbol Table
+a = false
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v))) |   }
+
+Symbol Table
+a = false
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v))) |   }
+
+Symbol Table
+a = false
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(a=true;((IF(a) THEN(v=2) ELSE(v=3));Print(v))) |   }
+
+Symbol Table
+a = false
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{a=true | ((IF(a) THEN(v=2) ELSE(v=3));Print(v)) |   }
+
+Symbol Table
+a = false
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{a=true | ((IF(a) THEN(v=2) ELSE(v=3));Print(v)) |   }
+
+Symbol Table
+a = false
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{((IF(a) THEN(v=2) ELSE(v=3));Print(v)) |   }
+
+Symbol Table
+a = true
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{((IF(a) THEN(v=2) ELSE(v=3));Print(v)) |   }
+
+Symbol Table
+a = true
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(IF(a) THEN(v=2) ELSE(v=3)) | Print(v) |   }
+
+Symbol Table
+a = true
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(IF(a) THEN(v=2) ELSE(v=3)) | Print(v) |   }
+
+Symbol Table
+a = true
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=2 | Print(v) |   }
+
+Symbol Table
+a = true
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=2 | Print(v) |   }
+
+Symbol Table
+a = true
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+a = true
+v = 2
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+a = true
+v = 2
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+a = true
+v = 2
+
+
+Out List
+2
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+a = true
+v = 2
+
+
+Out List
+2
+
+
+File Table
+
+----------------------------------
+
+

@@ -1,0 +1,193 @@
+Program State
+----------------------------------
+Execution Stack
+{(int a;(int v;(a=10;((IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3));Print(v))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int a | (int v;(a=10;((IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3));Print(v)))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int v;(a=10;((IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3));Print(v)))) |   }
+
+Symbol Table
+a = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (a=10;((IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3));Print(v))) |   }
+
+Symbol Table
+a = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(a=10;((IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3));Print(v))) |   }
+
+Symbol Table
+a = 0
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{a=10 | ((IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3));Print(v)) |   }
+
+Symbol Table
+a = 0
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{((IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3));Print(v)) |   }
+
+Symbol Table
+a = 10
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(IF(Model.Exp.RelExp@179d3b25) THEN(v=2) ELSE(v=3)) | Print(v) |   }
+
+Symbol Table
+a = 10
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=3 | Print(v) |   }
+
+Symbol Table
+a = 10
+v = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+a = 10
+v = 3
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+a = 10
+v = 3
+
+
+Out List
+3
+
+
+File Table
+
+----------------------------------
+
+

@@ -12,4 +12,5 @@ public interface MyIDictionary<T,E> {
     void add(T id, E elem) throws VariableException;
     void remove(T id) throws VariableException;
     void update(T id, E elem) throws VariableException;
+    MyIDictionary<T,E> clone();
 }

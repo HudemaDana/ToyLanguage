@@ -11,6 +11,11 @@ public class IntValue implements Value {
     }
 
     @Override
+    public Value clone() {
+        return new IntValue(val);
+    }
+
+    @Override
     public String toString(){
         return String.valueOf(val);
     }

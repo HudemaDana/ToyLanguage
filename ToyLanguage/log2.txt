@@ -1,0 +1,334 @@
+Program State
+----------------------------------
+Execution Stack
+{(int a;(int b;(a=2 + 3 * 5;(b=a + 1;Print(b))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int a | (int b;(a=2 + 3 * 5;(b=a + 1;Print(b)))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int a | (int b;(a=2 + 3 * 5;(b=a + 1;Print(b)))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int b;(a=2 + 3 * 5;(b=a + 1;Print(b)))) |   }
+
+Symbol Table
+a = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int b;(a=2 + 3 * 5;(b=a + 1;Print(b)))) |   }
+
+Symbol Table
+a = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int b | (a=2 + 3 * 5;(b=a + 1;Print(b))) |   }
+
+Symbol Table
+a = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int b | (a=2 + 3 * 5;(b=a + 1;Print(b))) |   }
+
+Symbol Table
+a = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(a=2 + 3 * 5;(b=a + 1;Print(b))) |   }
+
+Symbol Table
+a = 0
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(a=2 + 3 * 5;(b=a + 1;Print(b))) |   }
+
+Symbol Table
+a = 0
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{a=2 + 3 * 5 | (b=a + 1;Print(b)) |   }
+
+Symbol Table
+a = 0
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{a=2 + 3 * 5 | (b=a + 1;Print(b)) |   }
+
+Symbol Table
+a = 0
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(b=a + 1;Print(b)) |   }
+
+Symbol Table
+a = 17
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(b=a + 1;Print(b)) |   }
+
+Symbol Table
+a = 17
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{b=a + 1 | Print(b) |   }
+
+Symbol Table
+a = 17
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{b=a + 1 | Print(b) |   }
+
+Symbol Table
+a = 17
+b = 0
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(b) |   }
+
+Symbol Table
+a = 17
+b = 18
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(b) |   }
+
+Symbol Table
+a = 17
+b = 18
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+a = 17
+b = 18
+
+
+Out List
+18
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+a = 17
+b = 18
+
+
+Out List
+18
+
+
+File Table
+
+----------------------------------
+
+

@@ -1,0 +1,2637 @@
+Program State
+----------------------------------
+Execution Stack
+{(Ref(int) v;(new(v,20);(Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5))))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Ref(int) v | (new(v,20);(Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Ref(int) v | (new(v,20);(Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(new(v,20);(Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))))) |   }
+
+Symbol Table
+v = (0,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(new(v,20);(Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))))) |   }
+
+Symbol Table
+v = (0,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{new(v,20) | (Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5))))) |   }
+
+Symbol Table
+v = (0,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{new(v,20) | (Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5))))) |   }
+
+Symbol Table
+v = (0,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5))))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(rH(v));(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5))))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(rH(v)) | (Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(rH(v)) | (Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Ref(Ref(int)) a;(new(a,v);(new(v,30);Print(rH(rH(a)) + 5)))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Ref(Ref(int)) a | (new(a,v);(new(v,30);Print(rH(rH(a)) + 5))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Ref(Ref(int)) a | (new(a,v);(new(v,30);Print(rH(rH(a)) + 5))) |   }
+
+Symbol Table
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(new(a,v);(new(v,30);Print(rH(rH(a)) + 5))) |   }
+
+Symbol Table
+a = (0,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(new(a,v);(new(v,30);Print(rH(rH(a)) + 5))) |   }
+
+Symbol Table
+a = (0,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{new(a,v) | (new(v,30);Print(rH(rH(a)) + 5)) |   }
+
+Symbol Table
+a = (0,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{new(a,v) | (new(v,30);Print(rH(rH(a)) + 5)) |   }
+
+Symbol Table
+a = (0,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(new(v,30);Print(rH(rH(a)) + 5)) |   }
+
+Symbol Table
+a = (2,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(new(v,30);Print(rH(rH(a)) + 5)) |   }
+
+Symbol Table
+a = (2,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{new(v,30) | Print(rH(rH(a)) + 5) |   }
+
+Symbol Table
+a = (2,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{new(v,30) | Print(rH(rH(a)) + 5) |   }
+
+Symbol Table
+a = (2,Ref(int))
+v = (1,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(rH(rH(a)) + 5) |   }
+
+Symbol Table
+a = (2,Ref(int))
+v = (3,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+3->30
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(rH(rH(a)) + 5) |   }
+
+Symbol Table
+a = (2,Ref(int))
+v = (3,int)
+
+
+Out List
+20
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+3->30
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+a = (2,Ref(int))
+v = (3,int)
+
+
+Out List
+20
+25
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+3->30
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+a = (2,Ref(int))
+v = (3,int)
+
+
+Out List
+20
+25
+
+
+File Table
+
+
+Heap
+{1->20
+2->(1,int)
+3->30
+}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int v;(v=4;((while(v > 0)(Print(v);v=v - 1));Print(v)))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=4 | ((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=4 | ((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+0
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+0
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int v;(v=4;((while(v > 0)(Print(v);v=v - 1));Print(v)))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int v | (v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(v=4;((while(v > 0)(Print(v);v=v - 1));Print(v))) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=4 | ((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=4 | ((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{((while(v > 0)(Print(v);v=v - 1));Print(v)) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 4
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 3
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 2
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(v);v=v - 1) | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) | v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{v=v - 1 | (while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 1
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(while(v > 0)(Print(v);v=v - 1)) | Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(v) |   }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+0
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+v = 0
+
+
+Out List
+4
+3
+2
+1
+0
+
+
+File Table
+
+
+Heap
+{}
+----------------------------------
+
+

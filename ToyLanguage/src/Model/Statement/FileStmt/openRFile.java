@@ -8,6 +8,7 @@ import Model.Exp.Exp;
 import Model.State.PrgState;
 import Model.Statement.IStmt;
 import Model.Type.StringType;
+import Model.Type.Type;
 import Model.Value.StringValue;
 import Model.Value.Value;
 
@@ -29,7 +30,7 @@ public class openRFile implements IStmt {
         MyIDictionary<String, Value> newSymTbl = state.getSymTable();
 
         try {
-            Value fileExpression = exp.eval(newSymTbl);
+            Value fileExpression = exp.eval(newSymTbl, state.getHeap());
             if (fileExpression.getType().equals(new StringType())) {
                 StringValue s1 = (StringValue) fileExpression;
                 if (!newFileTbl.isVariableDefined(s1.getValue())) {
@@ -44,8 +45,23 @@ public class openRFile implements IStmt {
         } catch (ExpressionException | FileNotFoundException | VariableException e) {
             throw new MyException(e.toString());
         }
-        state.setFileTable(newFileTbl);
-        return state;
+        //state.setFileTable(newFileTbl);
+        return null;
+    }
+
+    @Override
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException {
+        try {
+            exp.typecheck(typeEnv);
+        } catch (ExpressionException e) {
+            throw new MyException(e.getMessage());
+        }
+        return typeEnv;
+    }
+
+    @Override
+    public String toString() {
+        return "openRFile(" + exp + ")";
     }
 
 }

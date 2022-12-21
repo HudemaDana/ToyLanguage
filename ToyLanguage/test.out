@@ -1,0 +1,184 @@
+Program State
+----------------------------------
+Execution Stack
+{(String varf;(varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{String varf | (varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{String varf | (varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))))) |   }
+
+Symbol Table
+varf = 
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))))) |   }
+
+Symbol Table
+varf = 
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{varf=test.in | (openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))) |   }
+
+Symbol Table
+varf = 
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{varf=test.in | (openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))) |   }
+
+Symbol Table
+varf = 
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{openRFile(varf) | (int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{openRFile(varf) | (int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+

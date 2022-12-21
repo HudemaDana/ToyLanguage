@@ -9,10 +9,10 @@ public interface IRepository {
     List<PrgState> getPrgStates();
 
     PrgState getPrgStateWithId(int id);
-
+    void setPrgList(List<PrgState> prgStates);
     void addPrgState(PrgState prg);
 
     void removePrgState(int id);
 
-    void logPrgStateExec() throws MyException;
+    void logPrgStateExec(PrgState state) throws MyException;
 }

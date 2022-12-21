@@ -31,8 +31,18 @@ public class VarDecl implements IStmt {
                 throw new MyException(e.toString());
             }
         }
-        state.setSymTable(newSymTbl);
-        return state;
+        //state.setSymTable(newSymTbl);
+        return null;
+    }
+
+    @Override
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws MyException {
+        try {
+            typeEnv.add(varName, varType);
+        } catch (VariableException e) {
+            throw new MyException(e.getMessage());
+        }
+        return typeEnv;
     }
 
     @Override

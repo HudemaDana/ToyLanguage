@@ -12,6 +12,11 @@ public class BoolValue implements Value {
     }
 
     @Override
+    public Value clone() {
+        return new BoolValue(val);
+    }
+
+    @Override
     public String toString(){
         return String.valueOf(val);
     }

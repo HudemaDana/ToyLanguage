@@ -2,6 +2,7 @@ package Model.ADT.Stack;
 
 import Exception.EmptyCollectionException;
 
+import java.util.List;
 import java.util.Stack;
 
 public class MyStack<T> implements MyIStack<T> {
@@ -42,6 +43,11 @@ public class MyStack<T> implements MyIStack<T> {
          if(stack.size()!=0)
             return false;
          return true;
+    }
+
+    @Override
+    public List getValues() {
+        return stack.subList(0,stack.size());
     }
 
     @Override

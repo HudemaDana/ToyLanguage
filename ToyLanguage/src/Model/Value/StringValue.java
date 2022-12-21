@@ -10,6 +10,11 @@ public class StringValue implements Value{
     public String getValue(){return val;}
 
     @Override
+    public Value clone() {
+        return new StringValue(val);
+    }
+
+    @Override
     public String toString() {
         return val;
     }

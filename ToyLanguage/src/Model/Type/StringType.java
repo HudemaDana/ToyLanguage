@@ -13,6 +13,11 @@ public class StringType implements Type {
     }
 
     @Override
+    public Type clone() {
+        return new StringType();
+    }
+
+    @Override
     public Value defaultValue() {
         return new StringValue("");
     }

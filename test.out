@@ -1,0 +1,333 @@
+Program State
+----------------------------------
+Execution Stack
+{(String varf;(varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{String varf | (varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))))) |   }
+
+Symbol Table
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(varf=test.in;(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))))) |   }
+
+Symbol Table
+varf = 
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{varf=test.in | (openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))) |   }
+
+Symbol Table
+varf = 
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(openRFile(varf);(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{openRFile(varf) | (int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(int varc;(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{int varc | (readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))) |   }
+
+Symbol Table
+varf = test.in
+
+
+Out List
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(readFile(varf,varc);(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf))))) |   }
+
+Symbol Table
+varf = test.in
+varc = 0
+
+
+Out List
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{readFile(varf,varc) | (Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))) |   }
+
+Symbol Table
+varf = test.in
+varc = 0
+
+
+Out List
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(varc);(readFile(varf,varc);(Print(varc);closeRFile(varf)))) |   }
+
+Symbol Table
+varf = test.in
+varc = 15
+
+
+Out List
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(varc) | (readFile(varf,varc);(Print(varc);closeRFile(varf))) |   }
+
+Symbol Table
+varf = test.in
+varc = 15
+
+
+Out List
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(readFile(varf,varc);(Print(varc);closeRFile(varf))) |   }
+
+Symbol Table
+varf = test.in
+varc = 15
+
+
+Out List
+15
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{readFile(varf,varc) | (Print(varc);closeRFile(varf)) |   }
+
+Symbol Table
+varf = test.in
+varc = 15
+
+
+Out List
+15
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{(Print(varc);closeRFile(varf)) |   }
+
+Symbol Table
+varf = test.in
+varc = 0
+
+
+Out List
+15
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{Print(varc) | closeRFile(varf) |   }
+
+Symbol Table
+varf = test.in
+varc = 0
+
+
+Out List
+15
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{closeRFile(varf) |   }
+
+Symbol Table
+varf = test.in
+varc = 0
+
+
+Out List
+15
+0
+
+
+File Table
+test.in = java.io.BufferedReader@5f4da5c3
+
+----------------------------------
+
+
+Program State
+----------------------------------
+Execution Stack
+{  }
+
+Symbol Table
+varf = test.in
+varc = 0
+
+
+Out List
+15
+0
+
+
+File Table
+
+----------------------------------
+
+
